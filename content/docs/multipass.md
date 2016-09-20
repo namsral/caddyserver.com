@@ -56,6 +56,11 @@ A minimal example with only required fields:
 }</code>
 
 
+### RSA Private key
+
+Tokens are signed using a private RSA key which is randomly generated on startup. You can set your own RSA private key using the `MULTIPASS_RSA_PRIVATE_KEY` environment variable. Make sure the private key is PEM encoded.
+
+
 [lets]:https://letsencrypt.org
 [caddy]:https://caddyserver.com
 [caddydocs]:https://caddyserver.com/docs
