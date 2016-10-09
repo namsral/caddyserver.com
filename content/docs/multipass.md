@@ -23,7 +23,7 @@ Login links are encoded [JSON Web Tokens][jwt] containing information about the 
 	<span class="hl-subdirective">smtp_addr</span> localhost:2525
 	<span class="hl-subdirective">smtp_user</span> vito
 	<span class="hl-subdirective">smtp_pass</span> secret
-	<span class="hl-subdirective">mail_from</span> "Multipass <no-reply@dallas>"
+	<span class="hl-subdirective">mail_from</span> "Multipass &lt;no-reply@dallas&gt;"
 }</code>
 
 - __resources__ Path of resources to protect. _Default: /_
@@ -52,7 +52,7 @@ A minimal example with only required fields:
 
 <code class="block"><span class="hl-directive">multipass</span> {
 	<span class="hl-subdirective">handles</span> leeloo@dallas
-	<span class="hl-subdirective">mail_from</span> "Multipass <no-reply@dallas>"
+	<span class="hl-subdirective">mail_from</span> "Multipass &lt;no-reply@dallas&gt;"
 }</code>
 
 
